@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang saat discroll */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition: padding 0.3s; /* Efek transisi untuk perubahan padding saat discroll */
+}
+
+.logo-container img {
+    max-height: 50px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    justify-content: center; /* Center the links horizontally */
+}
+
+.navbar-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #181616;
+}
+
+.page-section, .category-section {
+    padding: 50px;
+}
+
+.page-section:nth-child(even), .category-section:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+
+.page-section:nth-child(odd), .category-section:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Penataan teks ke tengah secara horizontal */
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    padding: 20px;
+    z-index: 1000;
+}
+
+.feather-icon {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+body:not(.scrolled) header {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+body:not(.scrolled) .navbar {
+    padding: 10px 20px;
+}
+
+body:not(.scrolled) header.navbar-fixed {
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+body:not(.scrolled) header::after {
+    display: none;
+}
+/* styles.css */
+
+/* CSS dari HTML sebelumnya tetap di sini */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.buy-now {
+    margin-top: 10px;
+}
+
+.buy-now a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy-now a:hover {
+    background-color: #2980b9;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ... Kode CSS lainnya ... */
+
+.page-section {
+    padding: 50px;
+}
+
+.page-section:nth-child(even) {
+    background-color: #1c1a1a; /* Warna latar belakang untuk section genap */
+}
+
+.page-section:nth-child(odd) {
+    background-color: #ffffff; /* Warna latar belakang untuk section ganjil */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box {
+    width: 70%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #121010;
+    color: white;
+    border-radius: 10px;
+    box-shadow: none; /* Menghapus bayangan */
+}
+
+
+.box:nth-child(even) {
+    background-color: #f2f2f2; /* Ganti warna latar belakang untuk section genap */
+    color: black
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
